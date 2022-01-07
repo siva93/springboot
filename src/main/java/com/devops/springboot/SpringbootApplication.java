@@ -1,13 +1,13 @@
-package com.example.hellospring;
+package com.devops.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HellospringApplication {
+public class SpringbootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HellospringApplication.class, args);
+		SpringApplication.run(SpringbootApplication.class, args);
 	}
 
 }
