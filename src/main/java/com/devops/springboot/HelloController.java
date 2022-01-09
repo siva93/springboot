@@ -10,5 +10,9 @@ public class HelloController {
     public String index() {
         return "Greetings from Azure Kubernetes!";
     }
-
+    
+	@GetMapping("/")
+	String return1(){
+		return "Hello World - Greetings from Azure Kubernetes!";
+	}
 }
