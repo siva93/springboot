@@ -8,6 +8,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index() {
-        return "Greetings from Azure Kubernetes!";
+        return "Greetings from Azure Kubernetes! Image created from jenkins and deployed using Octopus";
     }
 }
